@@ -1,0 +1,8 @@
+
+type hello {
+    message: String!;
+}
+
+type query {
+    hello
+}

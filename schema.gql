@@ -1,0 +1,20 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type HelloType {
+  id: ID!
+  message: String!
+}
+
+type Query {
+  getHello: [HelloType!]!
+}
+
+type Mutation {
+  createHello(input: HelloInputCreate!): HelloType!
+}
+
+input HelloInputCreate {
+  message: String!
+}
